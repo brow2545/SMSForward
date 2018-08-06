@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:showDividers="none"
+    android:background="@android:color/holo_green_dark">
+    <TextView
+        android:text="0000000000"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="383.0dp"
+        android:layout_height="31.5dp"
+        android:id="@+id/forwardNumber"
+        android:layout_marginBottom="6.5dp"
+        android:clickable="true"
+        android:editable="true"
+        android:enabled="true"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:maxLength="10"
+        android:numeric="integer"
+        android:textAlignment="center" />
+    <Button
+        android:text="@string/forwardNumTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6.5dp"
+        android:id="@+id/setForward"
+        android:background="@android:color/holo_purple" />
+    <Button
+        android:text="@string/sendSMSTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6.5dp"
+        android:id="@+id/sendSMS"
+        android:background="@android:color/holo_purple" />
+    <Button
+        android:text="@string/manualStartService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6.5dp"
+        android:id="@+id/startService"
+        android:background="@android:color/holo_purple" />
+    <Button
+        android:text="@string/manualStopService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stopService"
+        android:background="@android:color/holo_purple"
+        android:layout_marginBottom="0.0dp"
+        android:layout_marginRight="0.0dp" />
+</LinearLayout>
